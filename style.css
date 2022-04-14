@@ -1,0 +1,35 @@
+:root{
+    --opacity1 :1;
+    --opacity2 :0;
+}
+
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: rgba(222, 174, 116, 0.859);
+}
+
+.img .img1 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: url(image3.jpg);
+    background-size: cover;
+    border: 1px solid black;
+    opacity: var(--opacity1);
+}
+.img .img2 {
+    width: 500px;
+    height: 500px;
+    background: url(image1.png);
+    background-size: cover;
+    border: 1px solid black;
+    opacity: var(--opacity2);
+}
+
